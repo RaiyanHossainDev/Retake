@@ -1,0 +1,47 @@
+footer{
+    @apply bg-[#B8E0EF] py-[59px] pb-[41px]
+}
+
+
+/*  */
+.footer_card{
+    @apply  flex justify-center mb-[56px] 
+}
+.footer_card_text {
+    @apply flex flex-col items-center py-[105px] px-[59px] bg-white
+}
+.footer_card_text h2 {
+    @apply text-[#002D69] font-bold font-lato text-[26px] sm:text-[35px]
+}
+.footer_card_text p {
+    @apply text-[16px] font-open text-[#343434] w-full sm:w-[362px] text-center
+    mt-[8px] mb-[35px]
+}
+.footer_card_text button {
+    @apply bg-[#002D69] rounded-[4px] py-[11px] px-[28px] font-lato font-bold text-[16px] text-white
+}
+/*  */
+.footer_row{
+    @apply flex justify-between lg:justify-start lg:gap-[123px] mb-[28px]
+}
+.footer_row .single_item h2 {
+    @apply text-[21px] text-[#343434] font-lato font-bold mb-[24px]
+}
+.footer_row .single_item ul {
+    @apply flex flex-col gap-[10px]
+}
+.footer_row .single_item ul li a {
+    @apply text-[#53585F] font-lato font-bold text-[16px]
+}
+/*  */
+footer .line {
+    @apply w-full h-[1px] bg-[#929FA8]
+}
+
+/*  */
+.footer_row2 {
+    @apply flex lg:justify-between mt-[35px] flex-wrap justify-center gap-[20px]
+}
+.footer_row2 h2 {
+    @apply text-[#53585F] font-bold text-[16px] font-lato
+}

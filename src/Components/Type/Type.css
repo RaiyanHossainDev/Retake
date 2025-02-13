@@ -1,0 +1,14 @@
+#type {
+    @apply pt-[51px] pb-[66px]
+}
+
+.type_head h2 {
+    @apply text-[36px] font-black font-lato text-[#002D69] w-full sm:w-[322px]
+}
+.type_cards {
+    @apply flex lg:justify-between items-center flex-wrap justify-center gap-[40px] 
+}
+.singleTypeCard h2 {
+    @apply text-[#002D69] text-[18px] font-medium font-lato text-center
+    mt-[19px]
+}

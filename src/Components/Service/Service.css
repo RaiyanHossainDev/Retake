@@ -1,0 +1,20 @@
+#service {
+    @apply mt-[78px] mb-[111px]
+}
+
+.service_head h2 {
+    @apply text-[36px] font-black font-lato text-[#002D69] w-[262px] mb-[51px]
+}
+.service_cards {
+    @apply flex lg:justify-between items-center flex-wrap justify-center gap-[40px] 
+}
+.singleServiceCard h2 {
+    @apply text-[#002D69] text-[24px] font-medium font-lato text-center
+    mt-[24px]
+}
+.service_btn {
+    @apply flex justify-center mt-[50px]
+}
+.service_btn a {
+    @apply py-[11px] px-[23px] bg-[#002D69] rounded-[4px] font-lato font-bold text-[16px] text-white
+}

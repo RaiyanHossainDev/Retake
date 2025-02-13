@@ -1,0 +1,34 @@
+
+#hand{
+    @apply xl:bg-[#002D69] relative bg-center bg-no-repeat bg-cover
+
+    ;
+    
+}
+@media only screen and (max-width: 1280px) {
+    #hand{
+        background: url(/images/handimg.png);
+        background-size: cover;
+        background-position: center;
+    }
+  }
+.hand_row {
+    @apply flex justify-between 
+}
+.hand_text {
+    @apply pt-[163px] pb-[194px]
+}
+.hand_text h2 {
+    @apply text-white text-[30px] sm:text-[54px] font-lato font-black w-full sm:w-[429px]
+}
+.hand_text p {
+    @apply font-bold font-lato text-[18px] sm:text-[28px] text-white w-full sm:w-[541px] mt-[14px] mb-[37px]
+}
+.hand_text a {
+    @apply py-[12px] px-[28px] bg-white rounded-[4px]
+    text-[#002D69] text-[16px] font-lato font-bold 
+    shadow-[rgba(0,_0,_0,_0.2)_0px_60px_40px_-7px]
+}
+.hand_row .hand_img img {
+    @apply absolute right-0 top-0 h-full hidden xl:block
+}

@@ -1,0 +1,18 @@
+#nav {
+    @apply hidden lg:block     
+}
+.menu_row {
+    @apply flex justify-between items-center py-[22px] gap-[40px] xl:gap-0
+}
+.menu_row .main_menu {
+    @apply flex gap-[54px]
+}
+.menu_row .main_menu ul {
+    @apply flex items-center gap-[63px]
+}
+.menu_row .main_menu ul li a {
+    @apply text-[#343434] font-lato
+}
+.menu_row .main_menu .bag svg {
+    @apply text-[25px]
+}

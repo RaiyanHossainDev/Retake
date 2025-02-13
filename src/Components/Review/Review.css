@@ -1,0 +1,23 @@
+#review {
+    /* @apply */
+}
+
+.review_head h2 {
+    @apply text-[36px] font-black font-lato text-[#002D69] w-full sm:w-[372px]
+}
+
+.review_cards {
+    @apply flex lg:justify-between items-center justify-center flex-wrap gap-[20px] mt-[44px]
+}
+.singleReviewCards {
+    @apply border-[2px] pt-[20px] pb-[16px] px-[15px]
+}
+.singleReviewCards .text{
+    @apply font-open italic text-[18px] text-[#343434] mt-[23px]
+}
+.singleReviewCards .text h2 {
+    @apply w-full sm:w-[362px] text-center
+}
+.singleReviewCards .text p{
+    @apply text-center mt-[31px] 
+}

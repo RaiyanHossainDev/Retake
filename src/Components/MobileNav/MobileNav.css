@@ -1,0 +1,22 @@
+#mobileNav {
+    @apply lg:hidden
+}
+.mobileMenu_row {
+    @apply flex justify-between items-center py-[22px] relative gap-[20px] sm:gap-0
+}
+.mobileMenu_row .main_menu {
+    @apply flex gap-[20px] sm:gap-[54px]
+}
+.mobileMenu_row .main_menu ul {
+    @apply flex items-center gap-[20px] absolute left-[50%] translate-x-[-50%]
+    bg-[#0D5EBA] py-[5px] px-[10px] rounded-lg  transition-all
+}
+.mobileMenu_row .main_menu ul li a {
+    @apply text-[#fff] font-lato text-[14px] sm:text-[16px]
+}
+.mobileMenu_row .main_menu .bag svg {
+    @apply text-[25px] cursor-pointer
+}
+.mobileMenu_row .main_menu .drp svg {
+    @apply text-[29px] cursor-pointer transition-all
+}

@@ -1,0 +1,18 @@
+#latest {
+    @apply py-[50px]
+}
+
+.latest_head h2 {
+    @apply text-[36px] font-lato font-black text-[#002D69] w-full sm:w-[584]
+    mb-[51px]
+}
+.latest_cards {
+    @apply flex lg:justify-between items-center flex-wrap gap-[30px] justify-center
+    mb-[51px]
+}
+.latest_btn {
+    @apply flex justify-center
+}
+.latest_btn a {
+    @apply py-[11px] px-[23px] bg-[#002D69] rounded-[4px] font-lato font-bold text-[16px] text-white
+}

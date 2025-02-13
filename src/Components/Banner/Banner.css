@@ -1,0 +1,4 @@
+#banner{
+    background: url(/images/bannerBG.png);
+    @apply w-full h-[793px] bg-no-repeat bg-center bg-cover
+}
